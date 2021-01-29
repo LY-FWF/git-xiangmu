@@ -1,5 +1,5 @@
 //为全局的axios请求设置根路径
-axios.defaults.baseURL = 'http://api-breakingnews-web.itheima.net'
+axios.defaults.baseURL = 'http://ajax.frontend.itheima.net'
 
 // 添加全局请求拦截器
 axios.interceptors.request.use(function(config) {
