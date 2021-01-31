@@ -33,6 +33,9 @@ $(function() {
                 }
                 //提示用户
                 layer.msg('修改密码成功!')
+
+                localStorage.removeItem('token')
+                window.parent.location.href = '../../../login.html'
             })
 
     })
